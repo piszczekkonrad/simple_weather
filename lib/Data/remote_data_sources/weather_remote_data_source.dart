@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:simple_weather/domain/models/weather_model.dart';
 
 class WeatherRemoteDataSource {
   Future<Map<String, dynamic>?> getWeatherData({
